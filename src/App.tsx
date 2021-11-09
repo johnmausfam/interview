@@ -125,7 +125,7 @@ export const ProductTable: FC<{data: ProductServerResp[]}> = ({data}) => {
             </thead>
             <tbody>
                 {data.map((d) => (
-                    <tr key={d.id}>
+                    <tr>
                         <td>{d.id}</td>
                         <td>{d.sn}</td>
                         <td>{d.name}</td>
